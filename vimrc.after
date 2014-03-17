@@ -1,5 +1,0 @@
-color desert
-nmap ,n :NERDTreeFind<CR>
-set foldmethod=indent
-set foldlevelstart=10
-set colorcolumn=120

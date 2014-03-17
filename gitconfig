@@ -23,8 +23,8 @@
   ci = commit
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [user]
-  name = Akshay Rawat
-  email = projects@akshay.cc
+  name = Elango Balusamy
+  email = elango@gmail.com
 [branch "master"]
     mergeoptions = --no-ff
 [branch "develop"]

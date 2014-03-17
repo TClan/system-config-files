@@ -1,7 +1,0 @@
---type-add=ruby=.coffee
-
---ignore-dir=log
---ignore-dir=tmp
---ignore-dir=db/*
---ignore-dir=doc/*
---ignore-dir=coverage

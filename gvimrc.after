@@ -1,4 +1,0 @@
-color molokai
-set guioptions+=LlRrb
-set guioptions-=LlRrb
-set guifont=Monaco:h16

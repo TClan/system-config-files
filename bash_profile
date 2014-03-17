@@ -1,7 +1,5 @@
 function bash_settings
 {
-  . `brew --prefix`/etc/bash_completion
-  export PATH=$HOME/.rbenv/bin:/usr/local/bin:/usr/local/share/npm/bin/:/Users/akshayrawat/play-2.2.1:$PATH
   export PS1='\w$ '
   export PS1='\w$(__git_ps1 "(%s)")$ '
   export EDITOR="vim"
@@ -46,22 +44,12 @@ function gca
   git commit -m "$@"
 }
 
-function pr_develop
-{
-	hub pull-request -f '$@' -b develop | open
-}
-
-function pr_master
-{
-	hub pull-request -f '$@' -b master | open
-}
-
+source .git-prompt.sh
 [ -z "$PS1" ] && return
 
 bash_settings
 system_command_aliases
 package_aliases
-eval "$(rbenv init -)"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
