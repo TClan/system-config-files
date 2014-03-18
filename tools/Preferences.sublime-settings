@@ -1,0 +1,60 @@
+{
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_related_patterns":
+	[
+		[
+			"*/lib/*.rb",
+			"*/spec/lib/*_spec.rb"
+		],
+		[
+			"*/app/controllers/*.rb",
+			"*/spec/controllers/*_spec.rb"
+		],
+		[
+			"*/app/controllers/admin/*.rb",
+			"*/spec/controllers/admin/*_spec.rb"
+		],
+		[
+			"*/app/documents/*.rb",
+			"*/spec/documents/*_spec.rb"
+		],
+		[
+			"*/app/gateways/*.rb",
+			"*/spec/gateways/*_spec.rb"
+		],
+		[
+			"*/app/helpers/*.rb",
+			"*/spec/helpers/*_spec.rb"
+		],
+		[
+			"*/app/mailers/*.rb",
+			"*/spec/mailers/*_spec.rb"
+		],
+		[
+			"*/app/models/*.rb",
+			"*/spec/models/*_spec.rb"
+		],
+		[
+			"*/app/forms/*.rb",
+			"*/spec/forms/*_spec.rb"
+		],
+		[
+			"*/spec/models/*_spec.rb",
+			"*/app/models/*.rb"
+		],
+		[
+			"*/spec/controllers/*_spec.rb",
+			"*/app/controllers/*.rb"
+		],
+		[
+			"*/spec/controllers/admin/*_spec.rb",
+			"*/app/controllers/admin/*.rb"
+		]
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}
