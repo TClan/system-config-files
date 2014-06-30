@@ -44,12 +44,18 @@ function gca
   git commit -m "$@"
 }
 
+function ruby_env
+{
+  eval "$(rbenv init -)"
+}
+
 source .git-prompt.sh
 [ -z "$PS1" ] && return
 
 bash_settings
 system_command_aliases
 package_aliases
+ruby_env
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
